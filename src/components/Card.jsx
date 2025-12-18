@@ -1,13 +1,12 @@
 import React from 'react'
 
-const Card = ({ children }) => {
+const Card = ({ children ,bg="bg-gray-100" }) => {
   return (
-    <div className='bg-gray-100 p-6 rounded-lg shadow-md' >
-
-        {/* Card export korar por Card er moddhe jai rakhben sob  children hobe*/}
+    <div className={`${bg} ' p-6 rounded-lg shadow-md'`}>
+      {/* Card export korar por Card er moddhe jai rakhben sob  children hobe*/}
       {children}
     </div>
-  )
+  );
 }
 
 export default Card

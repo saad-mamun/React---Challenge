@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Hero = ({title="this is title", subtitle="this is subtitle"}) => {
+const Hero = ({title="Become a React Developer", subtitle="This is subtitle"}) => {
   return (
     <div>
-      <div className='text-center'>
-        <h1>{title}</h1>
-        <h1>{subtitle}</h1>
+      <div className='text-center text-white bg-indigo-700 py-20'>
+        <h1 className='text-4xl font-bold' >{title}</h1>
+        <h1 className='text-2xl'>{subtitle}</h1>
       </div>
     </div>
   )
