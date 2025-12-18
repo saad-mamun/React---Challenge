@@ -23,7 +23,9 @@ function App() {
     createRoutesFromElements(
       <Route path="/" element={<MainLayouts />}>
         <Route index element={<HomePage />} />
-        <Route path="/jobs" element={<JobsPage />} />
+        <Route
+       
+        path="/jobs" element={<JobsPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     )
