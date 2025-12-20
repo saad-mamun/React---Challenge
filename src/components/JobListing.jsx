@@ -33,7 +33,7 @@ const JobListing = ({
       }
     };
     fetchJobs();
-  }, []);
+  }, [isHome]);
 
   return (
     <div className="px-5">

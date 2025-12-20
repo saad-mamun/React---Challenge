@@ -15,24 +15,21 @@ import HomePage from "./pages/HomePage";
 import MainLayouts from "./layouts/MainLayouts";
 import JobsPage from "./pages/JobsPage";
 import NotFoundPage from "./pages/NotFoundPage";
+import JobPage from "./pages/JobPage";
 
 function App() {
-
-
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<MainLayouts />}>
         <Route index element={<HomePage />} />
-        <Route
-       
-        path="/jobs" element={<JobsPage />} />
+        <Route path="/jobs" element={<JobsPage />} />
+        <Route path="/jobs/:id" element={<JobPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     )
   );
 
-  return <RouterProvider router={router} />
-
+  return <RouterProvider router={router} />;
 }
 
 export default App;
