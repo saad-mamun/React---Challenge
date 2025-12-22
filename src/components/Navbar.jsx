@@ -6,8 +6,8 @@ const Navbar = () => {
     isActive ? "bg-black text-white hover-bg-gray-900 hover:text-white rounded-md px-3 py-2" : "text-black hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md"
 
   return (
-    <div className="bg-blue-300">
-      <div className="container mx-auto py-3 flex items-center justify-between">
+    <div className="bg-blue-300 ">
+      <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <NavLink className="text-2xl font-semibold tracking-wide" to="/">
           React-Challenge
         </NavLink>

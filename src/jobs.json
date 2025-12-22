@@ -1,99 +1,102 @@
-{ "jobs" : [
+{
+  "jobs": [
     {
-        "id" : "1",
-        "title" : "Senior React Developer",
-        "type" : "Full-time",
-        "description" : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi et dignissimos dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum?",
-
-        "salary":"$70k - $90k",
-        "location" :"Rajshahi",
-        "company" : {
-            "name":"Browsing technology",
-            "description":" dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum",
-            "contactEmail" : "alstjo@gmail.com",
-            "contactPhone" : "55555-555555"
-        }
+      "id": "1",
+      "title": "Senior React Developer",
+      "type": "Full-time",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi et dignissimos dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum?",
+      "salary": "$70k - $90k",
+      "location": "Rajshahi",
+      "company": {
+        "name": "Browsing technology",
+        "description": " dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum",
+        "contactEmail": "alstjo@gmail.com",
+        "contactPhone": "55555-555555"
+      }
     },
     {
-        "id" : "2",
-        "title" : "junior React Developer",
-        "type" : "Full-time",
-        "description" : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi et dignissimos dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum?"
-        ,
-
-        "salary":"$70k - $90k",
-        "location" :"Rajshahi",
-        "company" : {
-            "name":"Browsing technology",
-            "description":" dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum",
-            "contactEmail" : "alstjo@gmail.com",
-            "contactPhone" : "55555-555555"
-        }
+      "id": "2",
+      "title": "junior React Developer",
+      "type": "Full-time",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi et dignissimos dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum?",
+      "salary": "$80k - $120k",
+      "location": "Dhaka",
+      "company": {
+        "name": "Browsing technology",
+        "description": " dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum",
+        "contactEmail": "alstjo@gmail.com",
+        "contactPhone": "55555-555555"
+      }
     },
     {
-        "id" : "3",
-        "title" : "Entry level React Developer",
-        "type" : "Full-time",
-        "description" : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi et dignissimos dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum?"
-        ,
-
-        "salary":"$70k - $90k",
-        "location" :"Rajshahi",
-        "company" : {
-            "name":"Browsing technology",
-            "description":" dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum",
-            "contactEmail" : "alstjo@gmail.com",
-            "contactPhone" : "55555-555555"
-        }
+      "id": "3",
+      "title": "Entry level React Developer",
+      "type": "Full-time",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi et dignissimos dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum?",
+      "salary": "$30k - $60k",
+      "location": "Sylet",
+      "company": {
+        "name": "Browsing technology",
+        "description": " dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum",
+        "contactEmail": "alstjo@gmail.com",
+        "contactPhone": "55555-555555"
+      }
     },
     {
-        "id" : "4",
-        "title" : "InterMedeate React Developer",
-        "type" : "Full-time",
-        "description" : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi et dignissimos dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum?",
-         "salary":"$70k - $90k",
-         "location" :"Rajshahi",
-        "company" : {
-            "name":"Browsing technology",
-            "description":" dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum",
-            "contactEmail" : "alstjo@gmail.com",
-            "contactPhone" : "55555-555555"
-        }
-
-        
+      "id": "4",
+      "title": "InterMediate React Developer",
+      "type": "Full-time",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi et dignissimos dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum?",
+      "salary": "$50k - $70k",
+      "location": "Moimonsing",
+      "company": {
+        "name": "Browsing technology",
+        "description": " dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum",
+        "contactEmail": "alstjo@gmail.com",
+        "contactPhone": "55555-555555"
+      }
     },
     {
-        "id" : "5",
-        "title" : "InterMedeate React Developer",
-        "type" : "Full-time",
-        "description" : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi et dignissimos dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum?",
-         "salary":"$70k - $90k",
-         "location" :"Rajshahi",
-        "company" : {
-            "name":"Browsing technology",
-            "description":" dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum",
-            "contactEmail" : "alstjo@gmail.com",
-            "contactPhone" : "55555-555555"
-        }
-
-        
+      "id": "5",
+      "title": "Expart React Developer",
+      "type": "Full-time",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi et dignissimos dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum?",
+      "salary": "$90k - $150k",
+      "location": "Rajbari",
+      "company": {
+        "name": "Browsing technology",
+        "description": " dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum",
+        "contactEmail": "alstjo@gmail.com",
+        "contactPhone": "55555-555555"
+      }
     },
     {
-        "id" : "6",
-        "title" : "InterMedeate React Developer",
-        "type" : "Full-time",
-        "description" : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi et dignissimos dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum?",
-         "salary":"$70k - $90k",
-         "location" :"Rajshahi",
-        "company" : {
-            "name":"Browsing technology",
-            "description":" dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum",
-            "contactEmail" : "alstjo@gmail.com",
-            "contactPhone" : "55555-555555"
-        }
-
-        
+      "id": "6",
+      "title": "Semi-Expart React Developer",
+      "type": "Full-time",
+      "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi et dignissimos dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum?",
+      "salary": "$70k - $90k",
+      "location": "Nowgaw",
+      "company": {
+        "name": "Browsing technology",
+        "description": " dolores. Non modi eos qui ipsam distinctio repellat adipisci quaerat quae, iusto ullam, exercitationem accusamus cupiditate voluptatibus laborum ipsum",
+        "contactEmail": "alstjo@gmail.com",
+        "contactPhone": "55555-555555"
+      }
+    },
+    {
+      "id": "7aa0",
+      "type": "Remote",
+      "title": "asgdfsgfd",
+      "location": "sdfgdsfgsdf",
+      "description": "adfssdfgsdfgsdfgd s fgdfg",
+      "salary": "$100k $120k",
+      "company": {
+        "name": "dsgsdfgsdfg",
+        "description": "sdgdsfgdsfgsdgdfg",
+        "contactEmail": "sdfgsdf@gmail.com",
+        "contactPhone": "84545321"
+      }
     }
-    
-]
+  ]
 }
