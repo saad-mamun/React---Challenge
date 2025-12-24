@@ -1,8 +1,21 @@
-import { useParams, useLoaderData, Link } from "react-router-dom";
+import { useParams, useLoaderData, Link, useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 import { FaArrowLeft } from "react-icons/fa6";
-const JobPage = () => {
+
+const JobPage = ({ deleteJob }) => {
   const { id } = useParams();
   const job = useLoaderData();
+  const navigate = useNavigate();
+
+  const onDeleteClick = async (id) => {
+    const confirm = window.confirm("Are you sure you want to delete this job?");
+    if (!confirm) return;
+
+    await deleteJob(id);
+    toast.success("Job Deleted Successfully")
+    navigate("/jobs");
+  };
+
   return (
     <div className="py-5 md:py-10 px-4 md:px-20 ">
       <div className="p-20">
@@ -43,16 +56,19 @@ const JobPage = () => {
       </div>
       <div className="text-start space-y-5">
         <h1 className="font-bold text-2xl">Manage Job</h1>
-        <div className= " flex flex-col gap-3 items-start">
+        <div className=" flex flex-col gap-3 items-start">
           <button>
             <Link
               className="bg-blue-600 px-10 py-2 text-xl font-semibold text-white rounded-full"
-              to={`/jobs/edit/${id}`}
+              to={`/edit-job/${id}`}
             >
               Edit Job
             </Link>
           </button>
-          <button className="bg-red-600 px-10 py-2 text-xl font-semibold text-white rounded-full">
+          <button
+            onClick={() => onDeleteClick(job.id)}
+            className="bg-red-600 px-10 py-2 text-xl font-semibold text-white rounded-full"
+          >
             Delete
           </button>
         </div>
@@ -60,7 +76,6 @@ const JobPage = () => {
     </div>
   );
 };
-
 
 // individual data show korbe id er madhome
 const jobLoader = async ({ params }) => {

@@ -85,17 +85,31 @@
       }
     },
     {
-      "id": "7aa0",
-      "type": "Remote",
-      "title": "asgdfsgfd",
-      "location": "sdfgdsfgsdf",
-      "description": "adfssdfgsdfgsdfgd s fgdfg",
-      "salary": "$100k $120k",
+      "id": "5f6f",
+      "type": "Full-Time",
+      "title": "dfgds",
+      "location": "dfsgdfg",
+      "description": "fdsgfdg",
+      "salary": "$150k $190k",
       "company": {
-        "name": "dsgsdfgsdfg",
-        "description": "sdgdsfgdsfgsdgdfg",
-        "contactEmail": "sdfgsdf@gmail.com",
-        "contactPhone": "84545321"
+        "name": "fdg",
+        "description": "fdgdfgd",
+        "contactEmail": "text@gmail.com",
+        "contactPhone": "45645367567"
+      }
+    },
+    {
+      "id": "26d0",
+      "type": "Internship",
+      "title": "sadfdsa",
+      "location": "sadfsadf",
+      "description": "fsdafasdf",
+      "salary": "$120k $150k",
+      "company": {
+        "name": "sdafsdaf",
+        "description": "sdfsaff",
+        "contactEmail": "best@gmail.com",
+        "contactPhone": "65465413"
       }
     }
   ]

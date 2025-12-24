@@ -8,11 +8,11 @@ const Navbar = () => {
   return (
     <div className="bg-blue-300 ">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-        <NavLink className="text-2xl font-semibold tracking-wide" to="/">
+        <NavLink className="text-lg md:text-2xl font-semibold tracking-wide" to="/">
           React-Challenge
         </NavLink>
         <div>
-          <ul className="flex gap-6">
+          <ul className="flex gap-1 md:gap-6">
             <NavLink className={linkColor} to="/">
               Home
             </NavLink>

@@ -1,48 +1,50 @@
+import { useParams, useLoaderData, Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-
-
-const AddJobPage = ({ addJobSubmit }) => {
-  const [title, setTitle] = useState("");
-  const [type, setType] = useState("Full-Time");
-  const [location, setLocation] = useState("");
-  const [description, setDescription] = useState("");
-  const [salary, setSalary] = useState("Under $50k");
-  const [companyName, setCompanyName] = useState("");
-  const [companyDescription, setCompanyDescription] = useState("");
-  const [contactEmail, setContactEmail] = useState("");
-  const [contactPhone, setContactPhone] = useState("");
-
+const EditPage = ({ UpdateJobSubmit }) => {
+  const { id } = useParams();
   const navigate = useNavigate();
 
+  const job = useLoaderData();
+  const [title, setTitle] = useState(job.title);
+  const [type, setType] = useState(job.type);
+  const [location, setLocation] = useState(job.location);
+  const [description, setDescription] = useState(job.description);
+  const [salary, setSalary] = useState(job.salary);
+  const [companyName, setCompanyName] = useState(job.company.name);
+  const [companyDescription, setCompanyDescription] = useState(
+    job.company.description
+  );
+  const [contactEmail, setContactEmail] = useState(job.company.contactEmail);
+  const [contactPhone, setContactPhone] = useState(job.company.contactPhone);
 
   const submitForm = (e) => {
-    e.preventDefault()
-     const newJob = {
+    e.preventDefault();
+    const UpdatedJob = {
+      id,
       type,
       title,
       location,
-      description,salary,
+      description,
+      salary,
       company: {
         name: companyName,
         description: companyDescription,
         contactEmail,
-        contactPhone
-      }
-     }
-     addJobSubmit(newJob);
-     toast.success("Job Added Successfully");
-     return navigate('/jobs')
-  }
-
+        contactPhone,
+      },
+    };
+    UpdateJobSubmit(UpdatedJob);
+    toast.success("Job Updated Successfully");
+    return navigate(`/jobs/${id}`);
+  };
 
   return (
     <section className="bg-indigo-50">
       <div className="container m-auto max-w-2xl py-24">
         <div className="bg-white px-6 py-8 mb-4 shadow-md rounded-md border m-4 md:m-0">
           <form action="" onSubmit={submitForm}>
-            <h2 className="text-3xl text-center font-semibold mb-6">Job</h2>
+            <h2 className="text-3xl text-center font-semibold mb-6">Update Job Information</h2>
             <div className="mb-4">
               <label
                 htmlFor="type"
@@ -143,8 +145,9 @@ const AddJobPage = ({ addJobSubmit }) => {
 
             <div className="mb-4">
               <label
-              htmlFor="company_name"
-              className="block text-gray-700 font-bold mb-2">
+                htmlFor="company_name"
+                className="block text-gray-700 font-bold mb-2"
+              >
                 Company Name
               </label>
               <input
@@ -212,8 +215,8 @@ const AddJobPage = ({ addJobSubmit }) => {
               />
             </div>
             <div>
-              <button className= "text-white font-semibold text-lg bg-indigo-600 rounded w-full px-3 py-2">
-                Add Job
+              <button className="text-white font-semibold text-lg bg-indigo-600 rounded w-full px-3 py-2">
+               Save Job
               </button>
             </div>
           </form>
@@ -223,4 +226,4 @@ const AddJobPage = ({ addJobSubmit }) => {
   );
 };
 
-export default AddJobPage;
+export default EditPage;
